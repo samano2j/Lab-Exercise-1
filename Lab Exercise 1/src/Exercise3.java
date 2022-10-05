@@ -6,7 +6,7 @@ public class Exercise3 {
         int num = 0;
 
         scan = new Scanner(System.in);
-        System.out.println("Input a number: ");
+        System.out.print("Input a number: ");
         num = scan.nextInt();
 
         for (int i = 1; i < 11; i++) {

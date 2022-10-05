@@ -7,7 +7,7 @@ public class Exercise1 {
         double area = 0;
 
         scan = new Scanner(System.in);
-        System.out.println("Input the radius: ");
+        System.out.print("Input the radius: ");
         radius = scan.nextInt();
         area = Math.pow(radius,2) * Math.PI;
 

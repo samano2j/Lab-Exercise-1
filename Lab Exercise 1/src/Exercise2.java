@@ -7,7 +7,7 @@ public class Exercise2 {
         int dollars = 0;
 
         scan = new Scanner(System.in);
-        System.out.println("Input the cents: ");
+        System.out.print("Input the cents: ");
         cents = scan.nextInt();
 
         dollars = cents / 100;
